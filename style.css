@@ -28,7 +28,7 @@ text-align: center;
 min-height: 100vh;
 
 font-family: 'Spectral';
-font-size: 3vw;
+font-size: calc(37px + 0.390625vw);
 letter-spacing: -0.1em;
 
 color: #fbfbf1;
