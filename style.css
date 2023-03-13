@@ -1,0 +1,51 @@
+  /* gradient */
+body{
+    background: linear-gradient(-50deg,#d8ded4, #F573C1, #1A94D9, #FED6A7);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+  
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+/* home */
+.home{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+min-height: 100vh;
+
+font-family: 'Spectral';
+font-weight: 1200;
+font-size: 50px;
+line-height: 150px;
+letter-spacing: -0.1em;
+
+color: #fbfbf1;
+}
+
+.home:hover{
+  animation: gelatine 1.1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1); }
+  50% { transform: scale(1, 1); }
+  75% { transform: scale(0.98, 1.02); }
+}
+
+/* alt: size 100, color 4d4d4d, or size 50, color fbfbf1, | color mode #d8ded4, #F573C1, #1A94D9, #FED6A7 pastel mode #d8ded4, #f7abd9, #c9d8e1, #f2dcc2/
